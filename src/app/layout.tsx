@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt_BR">
-      <body className={inter.className}>{children}</body>
+      <body className='bg-spotify-1 text-white overflow-y-auto'>{children}</body>
     </html>
   )
 }
