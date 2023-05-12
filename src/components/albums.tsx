@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import AlbumCover from '../img/albumcover2.jpg';
 import LogoSpotify from "../img/spotify.svg";
 
 export default function Albums() {

@@ -1,7 +1,8 @@
 import MusicSuggestion from '@/components/musicsuggestion';
-import HeaderMobile from "../components/mobile/header";
+import HeaderMobile from "@/components/mobile/header";
 import TagList from '@/components/mobile/taglist';
 import Albums from '@/components/albums';
+import Menu from '@/components/mobile/menu';
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <TagList />
       <MusicSuggestion />
       <Albums />
+      <Albums />
+      <Menu />
     </main>
   )
 }
