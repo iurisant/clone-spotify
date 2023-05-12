@@ -7,7 +7,7 @@ export default function MusicSuggestion() {
     <section className='grid grid-rows-3 grid-flow-col gap-4 mb-8 overflow-hidden'>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
@@ -17,7 +17,7 @@ export default function MusicSuggestion() {
       </a>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
@@ -27,7 +27,7 @@ export default function MusicSuggestion() {
       </a>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
@@ -37,7 +37,7 @@ export default function MusicSuggestion() {
       </a>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
@@ -47,7 +47,7 @@ export default function MusicSuggestion() {
       </a>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
@@ -57,7 +57,7 @@ export default function MusicSuggestion() {
       </a>
       <a href='#' className='flex items-center bg-spotify-3 rounded'>
         <Image
-          className='w-auto h-auto rounded-l'
+          className='rounded-l'
           src={AlbumCover}
           alt="AlbumCover"
           width={50}
