@@ -4,8 +4,8 @@ import AlbumCover from '../img/albumcover.jpg';
 
 export default function MusicSuggestion() {
   return (
-    <section className='grid grid-rows-3 grid-flow-col gap-4 mb-8 overflow-hidden'>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+    <section className='grid grid-rows-3 grid-flow-col gap-3 mb-8 overflow-hidden'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}
@@ -15,7 +15,7 @@ export default function MusicSuggestion() {
         />
         <span className='px-4 text-sm font-semibold min-w-24 w-auto truncate'>Happier Than Ever</span>
       </a>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}
@@ -25,7 +25,7 @@ export default function MusicSuggestion() {
         />
         <span className='px-4 text-sm font-semibold min-w-24 w-auto truncate'>Happier Than Ever</span>
       </a>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}
@@ -35,7 +35,7 @@ export default function MusicSuggestion() {
         />
         <span className='px-4 text-sm font-semibold min-w-24 w-auto truncate'>Happier Than Ever</span>
       </a>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}
@@ -45,7 +45,7 @@ export default function MusicSuggestion() {
         />
         <span className='px-4 text-sm font-semibold min-w-24 w-auto truncate'>Happier Than Ever</span>
       </a>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}
@@ -55,7 +55,7 @@ export default function MusicSuggestion() {
         />
         <span className='px-4 text-sm font-semibold min-w-24 w-auto truncate'>Happier Than Ever</span>
       </a>
-      <a href='#' className='flex items-center bg-spotify-3 rounded'>
+      <a href='#' className='flex items-center bg-white/10 rounded'>
         <Image
           className='rounded-l'
           src={AlbumCover}

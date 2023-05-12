@@ -6,12 +6,18 @@ import Menu from '@/components/mobile/menu';
 
 export default function Home() {
   return (
-    <main className='flex flex-col justify-center px-4'>
+    <main className='flex flex-col items-stretch max-w-max w-full justify-center px-4'>
       <HeaderMobile />
       <TagList />
       <MusicSuggestion />
-      <Albums />
-      <Albums />
+      <div className='mb-24'>
+        <Albums />
+        <Albums />
+        <Albums />
+        <Albums />
+        <Albums />
+        <Albums />
+      </div>
       <Menu />
     </main>
   )

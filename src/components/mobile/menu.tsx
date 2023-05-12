@@ -7,9 +7,9 @@ import Player from './player';
 
 export default function Menu() {
   return (
-    <section className='bg-gradient-to-b from-transparent to-black w-full h-auto fixed left-0 bottom-0 z-10 px-4 py-6'>
+    <section className='bg-gradient-to-b from-transparent to-black w-full h-auto fixed left-0 bottom-0 z-10 px-4 py-2'>
       <Player />
-      <div className='flex justify-around h-10 w-full'>
+      <div className='flex justify-around h-10'>
         <a href="#" className='flex flex-col justify-center items-center text-xs'>
           <Image
             src={Home}

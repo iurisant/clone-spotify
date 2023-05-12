@@ -6,7 +6,7 @@ import Pause from '../../img/pause.svg';
 
 export default function Player() {
   return (
-    <section className='flex flex-col items-center my-4 px-2 rounded-lg text-sm bg-spotify-4 w-full'>
+    <section className='flex flex-col items-center mb-2 px-2 rounded-lg text-sm bg-spotify-3 w-full'>
       <div className='flex items-center w-full'>
         <Image
           className='rounded'

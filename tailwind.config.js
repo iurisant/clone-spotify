@@ -10,8 +10,7 @@ module.exports = {
       colors: {
         'spotify-1': '#121212',
         'spotify-2': '#282828',
-        'spotify-3': '#2A2A2A',
-        'spotify-4': '#003C60',
+        'spotify-3': '#003C60',
       },
       minWidth: {
         '6': '1.5rem',
