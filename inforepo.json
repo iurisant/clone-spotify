@@ -3,5 +3,7 @@
   "description": "Clone front-end do Spotify",
   "language": "React, NextJs, JavaScript, TypeScript, Css, Tailwind",
   "url": "https://i.imgur.com/rt4pqir.png",
-  "status": "Em Andamento"
+  "status": "Em Andamento",
+  "site": "https://iurisant.github.io/clone-spotify/",
+  "repositories": "https://github.com/iurisant/clone-spotify"
 }
