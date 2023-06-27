@@ -11,6 +11,8 @@ module.exports = {
         'xxs': '10px',
       },
       colors: {
+        'spotify': '#1ed760',
+        'spotifyh': '#169c46',
         'spotify-1': '#121212',
         'spotify-2': '#282828',
       },

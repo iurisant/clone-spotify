@@ -5,6 +5,7 @@ import { Home } from 'lucide-react'
 import { Search } from 'lucide-react'
 import { Library } from 'lucide-react'
 import { Speaker } from 'lucide-react'
+import { Heart } from 'lucide-react'
 import { Pause } from 'lucide-react'
 
 export default function Menu({ title, album }: { title: string, album: string }) {
@@ -28,9 +29,12 @@ export default function Menu({ title, album }: { title: string, album: string })
                 {album}
               </span>
             </div>
-            <div className='flex items-center mr-5'>
-              <a href='#' className='mr-5 opacity-70'>
+            <div className='flex items-center gap-4 mr-5'>
+              <a href='#' className='opacity-70'>
                 <Speaker />
+              </a>
+              <a href='#'>
+                <Heart />
               </a>
               <a href='#'>
                 <Pause />
@@ -45,15 +49,15 @@ export default function Menu({ title, album }: { title: string, album: string })
       <div className='flex justify-evenly h-10'>
         <a href="#" className='flex flex-col justify-center items-center text-xxs mx-4'>
           <Home />
-          Home
+          Início
         </a>
         <a href="#" className='flex flex-col justify-center items-center opacity-70 text-xxs mx-4'>
           <Search />
-          Search
+          Buscar
         </a>
         <a href="#" className='flex flex-col justify-center items-center opacity-70 text-xxs mx-4'>
           <Library />
-          Library
+          Biblioteca
         </a>
       </div>
     </section >

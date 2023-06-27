@@ -15,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt_BR">
-      <body className='bg-spotify-1 text-white overflow-y-auto flex flex-col items-stretch w-full'>{children}</body>
+      <body
+        className='bg-spotify-1 text-white overflow-y-auto flex flex-col items-stretch w-full'
+        suppressHydrationWarning={true}
+      >
+        {children}
+      </body>
     </html>
   )
 }
