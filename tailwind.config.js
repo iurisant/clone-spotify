@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'xxs': '10px',
+      },
       colors: {
         'spotify-1': '#121212',
         'spotify-2': '#282828',
-        'spotify-3': '#003C60',
       },
       minWidth: {
         '6': '1.5rem',
