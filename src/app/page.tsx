@@ -1,5 +1,5 @@
 'use client'
-import MusicSuggestion from '@/components/musicSuggestion';
+import MusicSuggestion from '@/components/musicsuggestion';
 import HeaderMobile from "@/components/mobile/header";
 import Albums from '@/components/albums';
 import MenuMobile from '@/components/mobile/menuMobile';
